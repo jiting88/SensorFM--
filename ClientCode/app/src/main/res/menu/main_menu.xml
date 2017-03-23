@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu2_local_music"
+        android:title="@string/local_music"></item>
+
+    <item android:id="@+id/menu4_analysis"
+        android:title="@string/analysis"></item>
+
+    <item android:id="@+id/menu6_app_exit"
+        android:title="@string/app_exit"></item>
+
+</menu>

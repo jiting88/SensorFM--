@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SensorFM</string>
+    <string name="action_settings">Settings</string>
+    <string name="local_music">Local Music</string>
+    <string name="user_page">User</string>
+    <string name="running_mode">Running Mode</string>
+    <string name="sleeping_mode">Sleeping Mode</string>
+    <string name="band_info">Band Info</string>
+    <string name="app_exit">Exit</string>
+    <string name="download">Online</string>
+    <string name="analysis">Analyize Local Files</string>
+</resources>

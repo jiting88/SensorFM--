@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.jicl.sensorfm.home$PlaceholderFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="398dp"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:background="#cf996015">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+                android:background="#00000000"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="52dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageButton2"
+                android:src="@drawable/user"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SensorFM"
+                android:id="@+id/textView4"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="offline"
+                android:id="@+id/switch1"
+                android:textColor="#ffffff"
+                android:checked="false"
+                android:clickable="false"
+                android:enabled="false"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_marginLeft="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Unravel"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="----  Animenz  ----"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="66dp"
+                android:layout_height="69dp"
+                android:id="@+id/imageButton3"
+                android:background="@drawable/login_button"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="110dp" />
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="67dp"
+                android:id="@+id/imageButton4"
+                android:background="@drawable/band_button"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton6"
+                android:src="@android:drawable/ic_media_previous"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_weight="0.09"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="45dp" />
+
+            <ImageButton
+                android:layout_width="198dp"
+                android:layout_height="180dp"
+                android:id="@+id/imageButton9"
+                android:src="@drawable/on"
+                android:background="@drawable/coffee"
+                android:scaleType="center"
+                android:layout_marginLeft="10dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton7"
+                android:src="@android:drawable/ic_media_next"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="66dp"
+                android:layout_height="69dp"
+                android:id="@+id/imageButton5"
+                android:background="@drawable/run_button"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="110dp" />
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="67dp"
+                android:id="@+id/imageButton8"
+                android:background="@drawable/sleep_button"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:background="#cf996015">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unravel"
+                    android:id="@+id/textView5"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animenz"
+                    android:id="@+id/textView6"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton11"
+                android:src="@android:drawable/ic_media_play"
+                android:background="#00000000"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
